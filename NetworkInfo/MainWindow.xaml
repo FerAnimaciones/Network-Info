@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NetworkInfo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Network INFO" Height="154.253" Width="399.871">
     <Grid>
-        
+        <Label x:Name="txtIp" Content="IP" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="72" Width="372" FontFamily="Consolas" FontSize="48"/>
+        <Label x:Name="txtMAC" Content="Label" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Height="36" Width="372" FontSize="18" FontFamily="Consolas"/>
+
     </Grid>
 </Window>
